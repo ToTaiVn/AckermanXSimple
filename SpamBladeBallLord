@@ -135,7 +135,7 @@ end
   return PlayersNumber
 end
 
-local function get_ProxyPlayer()
+local function get_ProxyPlayer2()
   local Players = workspace:WaitForChild("Alive"):GetChildren()
   local Distance = math.huge
   local plr = game.Players.LocalPlayer
@@ -333,7 +333,7 @@ DetectSpam()
   local SpamV2Toggle = Tabs.Main:AddToggle("SpamV2Toggle", {Title = "Auto Spam V2", Default = false })
 
     SpamV2Toggle:OnChanged(function(Value)
-        getgenv().AutoDetectSpam = true
+        getgenv().AutoDetectSpam = Value
     end)
 
     SpamV2Toggle.MyToggle:SetValue(false)
