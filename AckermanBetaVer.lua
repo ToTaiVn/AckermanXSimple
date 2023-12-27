@@ -8,7 +8,7 @@ _G.Language = "English" --Vietnamese
 loadstring(game:HttpGet('https://raw.githubusercontent.com/ToTaiVn/Sasageyo/main/Main'))()
 else
   if getgenv().OldScript == false then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/ToTaiVn/AckermanXSimple/main/Protected_2164516921352235.lua.txt"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ToTaiVn/AckermanXSimple/main/AckermanNew.lua"))()
   end
 end
 
