@@ -1,15 +1,8 @@
 
-wait(1.2)
-if getgenv().OldScript == true then
-  
-_G.Team = "Pirates" --Marines
-_G.Language = "English" --Vietnamese
-
-loadstring(game:HttpGet('https://raw.githubusercontent.com/ToTaiVn/Sasageyo/main/Main'))()
-else
-  if getgenv().OldScript == false then
+if getgenv().Language == "English" then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ToTaiVn/AckermanXSimple/main/Protected_1431408284804820.lua.txt"))()
-  end
-end
+else
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ToTaiVn/AckermanXSimple/main/Protected_4726386645023209.lua.txt"))()
+
 
 print("Ackerman Hub On Top!!")
