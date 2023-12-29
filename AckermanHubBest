@@ -1,6 +1,2 @@
 
-if getgenv().Language == "English" then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/ToTaiVn/AckermanXSimple/main/Protected_1431408284804820.lua.txt"))()
-else
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ToTaiVn/AckermanXSimple/main/Protected_8369602160693227.lua.txt"))()
-end
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ToTaiVn/AckermanXSimple/main/EnglishVersionNew.lua"))()
